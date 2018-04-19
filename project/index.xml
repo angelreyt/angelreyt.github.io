@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Angela Reynoso</title>
+    <link>http://angelareynoso.com/project/</link>
+    <description>Recent content in Projects on Angela Reynoso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Apr 2018 17:18:18 -0400</lastBuildDate>
+    
+	<atom:link href="http://angelareynoso.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Daily Burn &amp; Daily Burn 365</title>
+      <link>http://angelareynoso.com/project/daily-burn--daily-burn-365/</link>
+      <pubDate>Sun, 01 Apr 2018 17:18:18 -0400</pubDate>
+      
+      <guid>http://angelareynoso.com/project/daily-burn--daily-burn-365/</guid>
+      <description>Daily Burn 365 is an interactive, high-intensity live workout class airing daily on demand to wherever you are. The live workout classes are intended to encourage people to work out, stay accountable and create a fun vibrant community. The visual branding takes on energetic colors juxtaposed with joyous illustrations and light-hearted welcoming images to create a work-hard and feel-good canvas.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angela Reynoso</title>
+    <link>http://angelareynoso.com/</link>
+    <description>Recent content on Angela Reynoso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Apr 2018 17:18:18 -0400</lastBuildDate>
+    
+	<atom:link href="http://angelareynoso.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Daily Burn &amp; Daily Burn 365</title>
+      <link>http://angelareynoso.com/project/daily-burn--daily-burn-365/</link>
+      <pubDate>Sun, 01 Apr 2018 17:18:18 -0400</pubDate>
+      
+      <guid>http://angelareynoso.com/project/daily-burn--daily-burn-365/</guid>
+      <description>Daily Burn 365 is an interactive, high-intensity live workout class airing daily on demand to wherever you are. The live workout classes are intended to encourage people to work out, stay accountable and create a fun vibrant community. The visual branding takes on energetic colors juxtaposed with joyous illustrations and light-hearted welcoming images to create a work-hard and feel-good canvas.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://angelareynoso.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://angelareynoso.com/about/</guid>
+      <description>Hello! I&amp;rsquo;m Angela, an Art Director based in New York City. I am passionate about the work I do, I dream about it, I research it and create it.
+I am constantly learning, growing and keeping in touch with the latest design trends out there. If you need help with UI and web design, branding and identity, or graphics and illustrations, get in touch with me!</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://angelareynoso.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://angelareynoso.com/contact/</guid>
+      <description>Keep in touch! Write me an e-mail, find me on LinkedIn or check out my Instagram feed.</description>
+    </item>
+    
+  </channel>
+</rss>
