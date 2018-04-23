@@ -90,6 +90,7 @@ nav {
 .nav-right {
   line-height: 46px;
   float: right;
+  position: relative;
 }
 
 header input[type=checkbox] {
@@ -319,34 +320,6 @@ footer {
 
   /* Header */
 
-  .hamburger {
-    float: right;
-    margin-right: 5%;
-    margin-top: 10px;
-    width: 30px;
-    cursor: pointer;
-  }
-
-  .hamburger span {
-    display: block;
-    height: 3px;
-    margin-bottom: 5px;
-    background: #1F1F1F;
-  }
-
-  #menu {
-    display: none;
-    position: absolute;
-    right: 70px;
-    top: 20px;
-  }
-
-  nav li {
-    display: block;
-    font-size: 2em;
-    margin-bottom: 0.75em;
-    position: relative;
-  }
 
   .project img {
     margin: 75px 0;
@@ -382,6 +355,94 @@ footer {
     padding-top: 3em;
   }
 
+  header input[type=checkbox] {
+    display: block;
+    width: 28px;
+    height: 24px;
+    top: 8px;
+    left: -1px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+  }
+
+  .hamburger {
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    margin-top: 8px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    position: absolute;
+    display: block;
+    height: 3px;
+    width: 28px;
+    background: #1F1F1F;
+    transition: color, transform 0.2s;
+    z-index: 3;
+  }
+
+  .hamburger span:nth-child(2), .hamburger span:nth-child(3) {
+    top: 8px;
+  }
+
+  .hamburger span:nth-child(4) {
+    top: 16px;
+  }
+
+  header input:checked + .hamburger span:nth-child(1) {
+    width: 0;
+  }
+
+  header input:checked + .hamburger span:nth-child(4) {
+    width: 0;
+  }
+
+  header input:checked + .hamburger span:nth-child(2) {
+    left: -1px;
+    transform: rotate(45deg);
+    background: #FFFFFF;
+  }
+
+  header input:checked + .hamburger span:nth-child(3) {
+    left: -1px;
+    transform: rotate(-45deg);
+    background: #FFFFFF;
+  }
+
+  #menu {
+    display: none;
+    background-color: #1F1F1F;
+    top: 0;
+    right: 0;
+    padding: 100px 0 0;
+    width: 100vw;
+    position: fixed;
+    height: 100vh;
+    z-index: 2;
+  }
+
+  header input:checked ~ #menu {
+    display: block;
+  }
+
+  nav li {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 0.75em;
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav li a {
+    color: #FFFFFF;
+  }
   nav {
     max-width: 90%;
   }
