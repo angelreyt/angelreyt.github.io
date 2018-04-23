@@ -282,8 +282,8 @@ footer {
 
 .project > p {
   margin: -65px auto -50px;
+  max-width: 900px;
   text-align: left;
-  width: 90%;
 }
 
 /* Info */
@@ -544,7 +544,6 @@ footer {
 
   .project > p {
     margin: 0 auto;
-    max-width: 900px;
     width: auto;
   }
 
