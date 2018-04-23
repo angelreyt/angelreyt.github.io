@@ -205,6 +205,7 @@ footer {
   font-weight: bold;
   position: absolute;
   text-align: center;
+  letter-spacing: 0.025em;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -274,6 +275,12 @@ footer {
 
 .content p:first-child {
   margin-top: 0;
+}
+
+.project > p {
+  width: 90%;
+  margin: -65px auto -50px;
+  text-align: left;
 }
 
 /* Info */
