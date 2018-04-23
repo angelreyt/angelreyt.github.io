@@ -27,11 +27,6 @@
   </url>
   
   <url>
-    <loc>https://angelreyt.github.io/</loc>
-    <lastmod>2018-04-22T17:18:18-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://angelreyt.github.io/tags/art-direction-creative-direction-design/</loc>
     <lastmod>2018-04-22T17:18:18-04:00</lastmod>
     <priority>0</priority>
@@ -79,6 +74,11 @@
     <loc>https://angelreyt.github.io/tags/</loc>
     <lastmod>2018-04-22T17:18:18-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://angelreyt.github.io/</loc>
+    <lastmod>2018-04-22T17:18:18-04:00</lastmod>
   </url>
   
 </urlset>
