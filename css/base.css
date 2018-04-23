@@ -529,7 +529,7 @@ footer {
     font-size: 1em;
   }
 
-  .content p {
+  .project p {
     font-size: 1.33em;
     text-align: justify;
     line-height: 1.5em;
@@ -540,6 +540,12 @@ footer {
 
   .content p:first-child {
     margin-top: 1.75em;
+  }
+
+  .project > p {
+    margin: 0 auto;
+    max-width: 900px;
+    width: auto;
   }
 
   .cta {
