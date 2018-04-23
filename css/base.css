@@ -268,8 +268,6 @@ footer {
 }
 
 .content {
-  letter-spacing: 0.025em;
-  line-height: 1.6875em;
   overflow: auto;
 }
 
@@ -277,10 +275,15 @@ footer {
   margin-top: 0;
 }
 
+.project p {
+  letter-spacing: 0.025em;
+  line-height: 1.6875em;
+}
+
 .project > p {
-  width: 90%;
   margin: -65px auto -50px;
   text-align: left;
+  width: 90%;
 }
 
 /* Info */
