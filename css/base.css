@@ -375,7 +375,6 @@ footer {
     width: 28px;
     height: 24px;
     top: 8px;
-    left: -1px;
     position: absolute;
     z-index: 2;
     cursor: pointer;
@@ -385,7 +384,6 @@ footer {
   .hamburger {
     position: relative;
     float: right;
-    margin-right: 5%;
     margin-top: 8px;
     width: 30px;
     cursor: pointer;
@@ -464,7 +462,7 @@ footer {
   }
 
   nav {
-    max-width: 90%;
+    width: calc(95% - 16px);
   }
 
   .site-title {
