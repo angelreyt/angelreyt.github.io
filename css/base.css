@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5 {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .button, .button:visited {
@@ -177,10 +178,6 @@ footer {
   flex: 1 0 33%;
 }
 
-.gallery-item img {
-  max-width: 100%;
-}
-
 .gallery-item a {
   text-decoration: none;
 }
@@ -245,7 +242,6 @@ footer {
 
 .project img {
   margin: 100px auto;
-  max-width: 100%;
 }
 
 .description {
@@ -515,12 +511,12 @@ footer {
   }
 
   .project {
-    margin: 0 10px;
+    margin: 0 20px;
     width: auto;
   }
 
   .project img {
-    margin: 10px 0;
+    margin: 20px 0;
   }
 
   .description {
