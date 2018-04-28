@@ -354,6 +354,11 @@ footer {
 
 @media screen and (max-width: 540px) {
 
+  .button, .button:visited {
+    font-size: 1.66em;
+    padding: 1em 3.5em;
+  }
+
   /* Layout */
 
   body {
@@ -552,12 +557,13 @@ footer {
   }
 
   .cta {
-    padding: 3em 0;
+    padding-bottom: 85px;
+    padding-top: 80px;
   }
 
   .cta p {
     margin: 0;
-    margin-bottom: 0.75em;
+    margin-bottom: 1em;
   }
 
   /* Footer */
