@@ -13,6 +13,10 @@ img {
   max-width: 100%;
 }
 
+a img {
+  display: inline-block;
+}
+
 .button, .button:visited {
   background-color: #E32D69;
   color: #FFFFFF;
@@ -44,7 +48,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+a:hover {
   color: #E32D69;
 }
 
@@ -119,10 +123,6 @@ nav li.active a {
 
 main a {
   color: #1F1F1F;
-}
-
-main a:visited, main a:hover {
-  color: #F7DDDD;
 }
 
 /* Footer */
@@ -329,6 +329,10 @@ footer {
   padding-bottom: 2.5em;
 }
 
+.wrapper a img {
+  margin: 0 12px;
+}
+
 @media screen and (max-width: 940px) {
 
   /* Layout */
@@ -358,6 +362,7 @@ footer {
   .gallery-item {
     flex: 1 0 50%;
   }
+
 }
 
 @media screen and (max-width: 540px) {
