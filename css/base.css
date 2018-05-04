@@ -225,7 +225,7 @@ footer {
   padding: 4em 0;
 }
 
-.cta a img {
+.cta a img, .wrapper a img {
   display: inline-block;
 }
 
