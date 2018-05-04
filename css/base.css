@@ -329,7 +329,7 @@ footer {
   padding-bottom: 2.5em;
 }
 
-.wrapper a img {
+.wrapper a img, .cta a img {
   margin: 0 12px;
 }
 
@@ -477,12 +477,6 @@ footer {
 
   nav {
     width: calc(95% - 20px);
-  }
-
-  .site-title {
-    /*
-    font-size: 1.75em;
-    */
   }
 
   /* ********************  /
