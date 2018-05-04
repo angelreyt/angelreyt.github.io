@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://angelreyt.github.io/project/illos/</loc>
+    <lastmod>2018-04-21T17:18:18-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://angelreyt.github.io/project/undefeated/</loc>
     <lastmod>2018-04-21T17:18:18-04:00</lastmod>
   </url>
@@ -72,6 +77,12 @@
   <url>
     <loc>https://angelreyt.github.io/tags/logos--icons/</loc>
     <lastmod>2018-04-19T17:18:18-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://angelreyt.github.io/tags/miscellaneous-graphics--campaigns/</loc>
+    <lastmod>2018-04-21T17:18:18-04:00</lastmod>
     <priority>0</priority>
   </url>
   
