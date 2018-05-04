@@ -44,6 +44,10 @@ li a {
   text-decoration: none;
 }
 
+li a:hover {
+  color: #E32D69;
+}
+
 /* Layout */
 
 html {
@@ -89,6 +93,10 @@ nav {
   width: 8em;
 }
 
+.site-title:hover {
+  color: #E32D69;
+}
+
 .nav-right {
   line-height: 46px;
   float: right;
@@ -103,8 +111,8 @@ nav li:first-child {
   display: none;
 }
 
-nav li.active {
-  font-weight: 900;
+nav li.active a {
+  color: #E32D69;
 }
 
 /* Main */
@@ -354,11 +362,6 @@ footer {
 
 @media screen and (max-width: 540px) {
 
-  .button, .button:visited {
-    font-size: 1.66em;
-    padding: 1em 3.5em;
-  }
-
   /* Layout */
 
   body {
@@ -463,7 +466,7 @@ footer {
   }
 
   nav {
-    width: calc(95% - 20px);
+    width: calc(95% - 16px);
   }
 
   .site-title {
@@ -543,6 +546,7 @@ footer {
     font-size: 1.33em;
     text-align: justify;
     line-height: 1.5em;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -557,13 +561,12 @@ footer {
   }
 
   .cta {
-    padding-bottom: 85px;
-    padding-top: 80px;
+    padding: 3em 0;
   }
 
   .cta p {
     margin: 0;
-    margin-bottom: 1em;
+    margin-bottom: 0.75em;
   }
 
   /* Footer */
