@@ -13,10 +13,6 @@ img {
   max-width: 100%;
 }
 
-a img {
-  display: inline-block;
-}
-
 .button, .button:visited {
   background-color: #E32D69;
   color: #FFFFFF;
@@ -227,6 +223,10 @@ footer {
 
 .cta {
   padding: 4em 0;
+}
+
+.cta a img {
+  display: inline-block;
 }
 
 .cta p {
