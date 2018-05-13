@@ -227,6 +227,9 @@ footer {
 
 .cta a img, .wrapper a img {
   display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin: 0 12px;
 }
 
 .cta p {
@@ -330,9 +333,6 @@ footer {
 }
 
 .wrapper a img, .cta a img {
-  height: 25px;
-  width: 25px;
-  margin: 0 12px;
 }
 
 @media screen and (max-width: 940px) {
