@@ -262,7 +262,7 @@ footer {
 }
 
 .project img {
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 .back-to-top {
@@ -326,7 +326,7 @@ footer {
 }
 
 .project > p {
-  margin: -65px auto -50px;
+  margin: -30px auto 0;
   max-width: 900px;
   text-align: left;
 }
@@ -371,12 +371,6 @@ footer {
 
   body {
     font-size: 12px;
-  }
-
-  /* Header */
-
-  .project img {
-    margin: 75px 0;
   }
 
   /* ********************  /
@@ -573,7 +567,6 @@ footer {
 
   .project p {
     font-size: 1.33em;
-    text-align: justify;
     line-height: 1.5em;
     margin-left: auto;
     margin-right: auto;
