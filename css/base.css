@@ -163,15 +163,6 @@ footer {
   max-width: 480px;
 }
 
-.bg {
-  position: absolute;
-  background-color: #F7DDDD;
-  height: calc(100% - 115px);
-  width: 100vw;
-  z-index: -1;
-  top: 115px;
-}
-
 .gallery {
   display: flex;
   flex-flow: row wrap;
@@ -230,6 +221,10 @@ footer {
 
 .blue {
   background-color: #DDEAF7;
+}
+
+.pink {
+  background-color: #F7DDDD;
 }
 
 .cta {
@@ -390,11 +385,6 @@ footer {
 
   /* Project */
 
-  .bg {
-    height: calc(100% - 95px);
-    top: 95px;
-  }
-
   .gallery-item {
     flex: 1 0 50%;
   }
@@ -551,11 +541,6 @@ footer {
 
   .wrapper p:first-child {
     font-size: 2em;
-  }
-
-  .bg {
-    height: calc(100% - 125px);
-    top: 125px;
   }
 
   .gallery-item {
