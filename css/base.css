@@ -19,10 +19,16 @@ img {
   display: inline-block;
   font-size: 1.25em;
   font-weight: 500;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.05em;
   padding: 0.9em 2.85em;
   text-decoration: none;
+  transition: background-color .2s ease;
 }
+
+.button:hover {
+  background-color: #1F1F1F;
+}
+
 
 ul {
   list-style: none;
@@ -149,12 +155,12 @@ footer {
 }
 
 .greeting {
-  font-size: 3.125em;
+  font-size: 2.5em;
   font-weight: bold;
   letter-spacing: 0.025em;
   line-height: 1.2em;
   margin: 2em auto;
-  max-width: 540px;
+  max-width: 480px;
 }
 
 .bg {
@@ -196,25 +202,30 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0;
   margin: 8px;
-  background-color: #E32D69;
+  background-color: rgba(227, 45, 105, 0);
+  transition: background-color .2s ease;
 }
 
 .overlay:hover {
-  opacity: 1;
+  background-color: rgba(227, 45, 105, 0.7);
 }
 
 .overlay .text {
   color: #FFFFFF;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 1.5em;
+  font-weight: 500;
   position: absolute;
   text-align: center;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.05em;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+  opacity: 0;
+}
+
+.overlay:hover .text {
+  opacity: 1;
 }
 
 .blue {
@@ -225,11 +236,15 @@ footer {
   padding: 4em 0;
 }
 
-.cta a img, .wrapper a img {
+.icon {
   display: inline-block;
   height: 25px;
   width: 25px;
   margin: 0 12px;
+}
+
+.icon:hover {
+  fill: #E32D69;
 }
 
 .cta p {
@@ -253,6 +268,29 @@ footer {
 
 .project img {
   margin: 100px auto;
+}
+
+.back-to-top {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 60px;
+  bottom: 40px;
+  right: 40px;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  transition: background-color .2s ease;
+}
+
+.back-to-top:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top svg {
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
 }
 
 .description {
@@ -332,9 +370,6 @@ footer {
   padding-bottom: 2.5em;
 }
 
-.wrapper a img, .cta a img {
-}
-
 @media screen and (max-width: 940px) {
 
   /* Layout */
@@ -344,7 +379,6 @@ footer {
   }
 
   /* Header */
-
 
   .project img {
     margin: 75px 0;
@@ -363,6 +397,10 @@ footer {
 
   .gallery-item {
     flex: 1 0 50%;
+  }
+
+  .back-to-top {
+    display: none;
   }
 
 }
@@ -580,11 +618,5 @@ footer {
   footer {
     height: 25px;
     line-height: 25px;
-  }
-}
-
-@media screen and (max-width: 370px){
-  .greeting {
-    font-size: 3.125em;
   }
 }
