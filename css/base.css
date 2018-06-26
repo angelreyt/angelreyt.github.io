@@ -29,14 +29,17 @@ img {
   background-color: #1F1F1F;
 }
 
+ol {
+  padding-left: 1em;
+}
 
-ul {
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+nav ul li {
   display: inline-block;
   font-size: 1.25em;
   font-weight: 500;
@@ -45,7 +48,7 @@ li {
   vertical-align: middle;
 }
 
-li a {
+nav ul li a {
   color: #1F1F1F;
   text-decoration: none;
 }
@@ -228,6 +231,7 @@ footer {
 }
 
 .cta {
+  margin-top: 150px;
   padding: 4em 0;
 }
 
@@ -288,8 +292,9 @@ footer {
   left: 16px;
 }
 
-.description {
+.summary {
   margin: -20px 0;
+  overflow: auto;
   text-align: left;
 }
 
@@ -312,23 +317,49 @@ footer {
   margin-bottom: 1em;
 }
 
-.content {
-  overflow: auto;
-}
-
-.content p:first-child {
-  margin-top: 0;
-}
-
-.project p {
+.description, .caption, .content {
   letter-spacing: 0.025em;
   line-height: 1.6875em;
 }
 
-.project > p {
+.description {
+  margin-top: 0;
+  overflow: auto;
+}
+
+.caption {
   margin: -30px auto 0;
   max-width: 900px;
   text-align: left;
+}
+
+.content {
+  text-align: left;
+}
+
+.content hr:first-child {
+  margin-top: 110px;
+}
+
+.content hr {
+  width: 20%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.content h2 {
+  color: #636363;
+  font-size: 1.75em;
+  font-weight: 500;
+  margin-bottom: 0.875em;
+}
+
+.content h3 {
+  color: #636363;
+  font-size: 1.5em;
+  font-weight: normal;
 }
 
 /* Info */
@@ -385,6 +416,10 @@ footer {
 
   .back-to-top {
     display: none;
+  }
+
+  .cta {
+    margin-top: 100px;
   }
 
 }
@@ -550,7 +585,7 @@ footer {
     margin: 20px 0;
   }
 
-  .description {
+  .summary {
     margin-top: 40px;
     margin-bottom: 28px;
   }
@@ -565,23 +600,47 @@ footer {
     font-size: 1em;
   }
 
-  .project p {
+  .description, .caption, .content {
     font-size: 1.33em;
     line-height: 1.5em;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .content p:first-child {
+  .description {
     margin-top: 1.75em;
   }
 
-  .project > p {
-    margin: 0 auto;
-    width: auto;
+  .caption {
+    margin: auto;
+  }
+
+  .content {
+    margin-top: 60px;
+  }
+
+  .content hr:first-child {
+    margin-top: 60px;
+  }
+
+  .content hr {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .content h2 {
+    line-height: 1.25em;
+    margin-bottom: 1.5em;
+  }
+
+  .content h3 {
+    line-height: 1.25em;
+    margin-bottom: 1em;
   }
 
   .cta {
+    margin-top: 70px;
     padding-bottom: 85px;
     padding-top: 80px;
   }
