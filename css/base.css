@@ -321,6 +321,7 @@ footer {
 .description, .caption, .content {
   letter-spacing: 0.025em;
   line-height: 1.6875em;
+  color: #636364;
 }
 
 .description {
