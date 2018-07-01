@@ -321,7 +321,7 @@ footer {
 .description, .caption, .content {
   letter-spacing: 0.025em;
   line-height: 1.6875em;
-  color: #636364;
+  color: #636363;
 }
 
 .description {
@@ -352,14 +352,14 @@ footer {
 }
 
 .content h2 {
-  color: #636363;
+  color: #1F1F1F;
   font-size: 1.75em;
   font-weight: 500;
   margin-bottom: 0.875em;
 }
 
 .content h3 {
-  color: #636363;
+  color: #1F1F1F;
   font-size: 1.5em;
   font-weight: normal;
 }
