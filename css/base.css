@@ -295,8 +295,8 @@ footer {
 
 .summary {
   margin: -20px 0;
-  overflow: auto;
   text-align: left;
+  padding-bottom: 50px;
 }
 
 .title-tags {
@@ -315,6 +315,7 @@ footer {
   letter-spacing: 0.025em;
   text-transform: uppercase;
   margin-bottom: 1em;
+  padding-top: 5px;
 }
 
 .description, .caption, .content {
@@ -598,11 +599,11 @@ footer {
   }
 
   .tags {
-    font-size: 1em;
+    font-size: .7em;
   }
 
   .description, .caption, .content {
-    font-size: 1.33em;
+    font-size: 1.06em;
     line-height: 1.5em;
     margin-left: auto;
     margin-right: auto;
