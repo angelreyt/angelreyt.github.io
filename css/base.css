@@ -42,7 +42,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   font-size: 1.25em;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.05em;
   padding-left: 2em;
   vertical-align: middle;
@@ -97,7 +97,7 @@ nav {
   text-decoration: none;
   float: left;
   font-size: 1.25em;
-  font-weight: bold;
+  font-weight: regular;
   text-transform: uppercase;
   width: 8em;
 }
@@ -207,8 +207,8 @@ footer {
 
 .overlay .text {
   color: #FFFFFF;
-  font-size: 1.5em;
-  font-weight: 500;
+  font-size: 1em;
+  font-weight: 400;
   position: absolute;
   text-align: center;
   letter-spacing: 0.05em;
@@ -247,8 +247,8 @@ footer {
 }
 
 .cta p {
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 1.5em;
+  font-weight: regular;
   letter-spacing: 0.025em;
   margin: 0.75em 0;
 }
@@ -435,7 +435,7 @@ footer {
   /* Layout */
 
   body {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   /* Header */
